@@ -1,0 +1,45 @@
+# 项目介绍
+OpenIddict是一个基于.NET平台的开源OpenID Connect和OAuth 2.0框架，专门用于构建安全、标准化的身份验证和授权系统。它的核心优势在于其轻量级、模块化的设计，以及与ASP.NET Core生态系统的深度集成，使.NET开发者能够快速搭建自己的授权服务器
+而OpenIddict-UI是为了服务于OpenIddict授权框架，提供了完整的授权可视化配置管理页面。
+
+
+# 功能列表
+OpenIddict完整支持 OpenID Connect (OIDC) 和 OAuth 2.0 的核心协议与功能，提供了多种授权模式以适应不同的应用场景。
+1. 用户管理
+2. 角色管理
+3. 应用管理
+4. 作用域管理
+5. 授权记录
+
+# 功能截图
+![登录页面](./doc/login.png)
+
+![首页](./doc/index.png)
+
+![用户管理](./doc/user.png)
+
+![角色管理](./doc/role.png)
+
+![应用管理](./doc/app.png)
+
+![作用域管理](./doc/scope.png)
+
+![授权记录](./doc/authorization.png)
+
+
+# 一键部署
+~~~
+# 1. 下载项目
+git clone https://github.com/blackstarstar007/Openiddict-UI.git
+
+# 2. 复制环境变量示例文件
+cp .env.example .env
+# 编辑 .env 文件，配置实际值
+
+# 3. 启动所有服务
+sudo docker-compose up -d
+
+# 4. 访问管理后台
+http://localhost:5000  授权认证api+web管理后端
+http://localhost:5000/.well-known/openid-configuration 授权认证配置信息
+~~~
