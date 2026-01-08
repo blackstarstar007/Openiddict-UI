@@ -1,5 +1,5 @@
 # 项目介绍
-OpenIddict是一个基于.NET平台的开源OpenID Connect和OAuth 2.0框架，专门用于构建安全、标准化的身份验证和授权系统。它的核心优势在于其轻量级、模块化的设计，以及与ASP.NET Core生态系统的深度集成，使.NET开发者能够快速搭建自己的授权服务器
+OpenIddict是一个基于.NET平台的开源OpenID Connect和OAuth 2.0框架，专门用于构建安全、标准化的身份验证和授权系统。它的核心优势在于其轻量级、模块化的设计，以及与ASP.NET Core生态系统的深度集成，使.NET开发者能够快速搭建自己的授权服务器，
 而OpenIddict-UI是为了服务于OpenIddict授权框架，提供了完整的授权可视化配置管理页面。
 
 
