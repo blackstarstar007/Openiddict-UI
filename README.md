@@ -14,6 +14,7 @@ OpenIddict支持的主要功能类别：
 | **高级安全特性** | **Proof Key for Code Exchange (PKCE)** (增强授权码流程安全) <br> **Pushed Authorization Requests (PAR)** (防止请求篡改)                                                              |
 | **第三方集成**   | 内置支持 **100+ 外部提供商**的登录集成 (如：Google, GitHub, Microsoft, 微信，阿里云等)                                                                                              |
 
+OpenIddict-UI支持的功能列表：
 1. 用户管理
 2. 角色管理
 3. 应用管理
