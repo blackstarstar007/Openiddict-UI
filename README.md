@@ -53,4 +53,4 @@ http://localhost:5000
 ~~~
 
 # Openiddict-UI交流群
-QQ群：<img src="./doc/qq.jpg" alt="QQ技术交流群" width="200">
+<img src="./doc/qq.jpg" alt="QQ技术交流群" width="100">
