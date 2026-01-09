@@ -50,6 +50,6 @@ cp .env.example .env
 sudo docker-compose up -d
 
 # 4. 访问管理后台
-http://localhost:5000  授权认证api+web管理后端（默认账号admin/123456）
+http://localhost:5000  授权认证web管理后端（默认账号admin/123456）
 http://localhost:5000/.well-known/openid-configuration 授权认证配置信息
 ~~~
