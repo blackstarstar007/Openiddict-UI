@@ -49,7 +49,6 @@ cp .env.example .env
 # 3. 启动所有服务
 sudo docker-compose up -d
 
-# 4. 访问管理后台
-http://localhost:5000  授权认证web管理后端（默认账号admin/123456）
-http://localhost:5000/.well-known/openid-configuration 授权认证配置信息
+# 4. 访问管理后台（默认账号admin/123456）
+http://localhost:5000
 ~~~
