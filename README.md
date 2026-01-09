@@ -51,3 +51,6 @@ sudo docker-compose up -d
 # 4. 访问管理后台（默认账号admin/123456）
 http://localhost:5000
 ~~~
+
+# Openiddict-UI交流群
+QQ群：![QQ技术交流群](./doc/qq.png)
