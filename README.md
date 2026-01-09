@@ -44,7 +44,6 @@ git clone https://github.com/blackstarstar007/Openiddict-UI.git
 
 # 2. 复制环境变量示例文件
 cp .env.example .env
-# 编辑 .env 文件，配置实际值
 
 # 3. 启动所有服务
 sudo docker-compose up -d
